@@ -15,6 +15,13 @@ namespace PraktikumADO
     {
         SqlConnection conn;
         SqlCommand cmd;
+
+        private void Koneksi()
+        {
+            conn = new SqlConnection(
+                "Data Source=YOUR_SERVER;Initial Catalog=YOUR_DB;Integrated Security=True"
+            );
+        }
         public Form1()
         {
             InitializeComponent();
@@ -22,7 +29,21 @@ namespace PraktikumADO
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
 
+                MessageBox.Show("Koneksi ke database berhasil");
+
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
+
+        
     }
 }
