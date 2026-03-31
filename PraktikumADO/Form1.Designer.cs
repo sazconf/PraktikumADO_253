@@ -89,7 +89,7 @@
             // 
             this.txtHasil.Location = new System.Drawing.Point(277, 84);
             this.txtHasil.Name = "txtHasil";
-            this.txtHasil.Size = new System.Drawing.Size(244, 22);
+            this.txtHasil.Size = new System.Drawing.Size(351, 22);
             this.txtHasil.TabIndex = 5;
             // 
             // Form1
