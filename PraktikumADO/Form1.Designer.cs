@@ -40,7 +40,7 @@
             // 
             this.btnConnect.Location = new System.Drawing.Point(172, 184);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(75, 23);
+            this.btnConnect.Size = new System.Drawing.Size(86, 42);
             this.btnConnect.TabIndex = 0;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -50,7 +50,7 @@
             // 
             this.btnHitungMhs.Location = new System.Drawing.Point(290, 184);
             this.btnHitungMhs.Name = "btnHitungMhs";
-            this.btnHitungMhs.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungMhs.Size = new System.Drawing.Size(90, 42);
             this.btnHitungMhs.TabIndex = 1;
             this.btnHitungMhs.Text = "Hitung Mhs";
             this.btnHitungMhs.UseVisualStyleBackColor = true;
@@ -60,7 +60,7 @@
             // 
             this.btnHitungMk.Location = new System.Drawing.Point(414, 184);
             this.btnHitungMk.Name = "btnHitungMk";
-            this.btnHitungMk.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungMk.Size = new System.Drawing.Size(80, 42);
             this.btnHitungMk.TabIndex = 2;
             this.btnHitungMk.Text = "Hitung Mk";
             this.btnHitungMk.UseVisualStyleBackColor = true;
@@ -70,7 +70,7 @@
             // 
             this.btnUpdate.Location = new System.Drawing.Point(536, 184);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(92, 42);
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
