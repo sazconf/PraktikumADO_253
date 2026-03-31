@@ -19,7 +19,7 @@ namespace PraktikumADO
         private void Koneksi()
         {
             conn = new SqlConnection(
-                "Data Source=YOUR_SERVER;Initial Catalog=YOUR_DB;Integrated Security=True"
+                "Data Source=SAZZAD_LAPTOP\\SQLSERVERDEV;Initial Catalog=DBAkademikADO;Integrated Security=True"
             );
         }
         public Form1()
